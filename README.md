@@ -36,6 +36,10 @@ Detailed documentation and examples can be found at [furtive.co](http://furtive.
 
 MIT
 
+## Acknowledgements
+
+Typescale from <http://type-scale.com/> by Jeremy Church.
+
 ## Contributing
 
 1. Fork it
