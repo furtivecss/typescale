@@ -1,6 +1,6 @@
 {
   "name": "furtive-typescale",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "A CSS module for a responsive typescale with rework.",
   "main": "index.js",
   "scripts": {

@@ -2,13 +2,16 @@ html {
   font-size: var(--font-size, 12px);
 }
 
-@media screen and (min-width: var(--viewport-m, 32rem)) and (max-width: var(--viewport-l, 48rem)) {
+@custom-media --viewport-m screen and (min-width: 32rem) and (max-width: 48rem);
+@custom-media --viewport-l screen and (min-width: 48rem);
+
+@media (--viewport-m) {
   html {
     font-size: var(--font-size--m, 15px);
   }
 }
 
-@media screen and (min-width: var(--viewport-l, 48rem)) {
+@media (--viewport-l) {
   html {
     font-size: var(--font-size--l, 16px);
   }

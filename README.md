@@ -20,6 +20,11 @@ var output = rework('@import "furtive-typescale";', { source: 'my-file.css' })
 
 ## Usage
 
+### Required Rework Plugins
+
+* <https://github.com/reworkcss/rework-custom-media/>
+* <https://github.com/reworkcss/rework-vars/>
+
 ### Variables to declare
 
 ```css
